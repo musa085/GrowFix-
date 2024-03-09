@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.scss">
+    <title>Sidebar #1 | AsmrProg</title>
+</head>
+
+<body>
+    
+    <nav class="sidebar">
+        <div class="sidebar-inner">
+            <header class="sidebar-header">
+                <button type="button" class="sidebar-burger" onclick="toggleSidebar()">
+                <h1 style="color:greenyellow; padding: 20px;">GrowFix</h1> 
+                
+                </button>
+                <img src="logo.png" alt="" class="sidebar-logo">
+            </header>
+            
+            <nav class="sidebar-menu">
+                <button type="button">
+                    <i class='bx bxs-dashboard'></i>
+                    <span>Dashboard</span>
+                </button>
+                <button type="button">
+                    <i class='bx bx-compass'></i>
+                    <span>Explore Assets</span>
+                </button>
+                <button type="button" class="has-border">
+                    <i class='bx bxs-playlist'></i>
+                    <span>Learing Center</span>
+                </button>
+                <button type="button">
+                    <i class='bx bx-shape-circle'></i>
+                    <span>Blockchain</span>
+                </button>
+                <button type="button">
+                    <i class='bx bxl-whatsapp'></i>
+                    <span>FAQs</span>
+                </button>
+                <button type="button">
+                    <i class='bx bx-cog'></i>
+                    <span>Settings</span>
+                </button>
+                <button type="button" class="has-border">
+                </button>
+                <div class="img">
+
+                    <img  src="./assets/Group 236.png" alt="">
+                    <p style="color: #D9DBE9; padding: 30px;">Download our Mobile App and be updated</p>
+                    <button class="btn">Upload</button>
+                </div>
+            </nav>
+            
+            
+        </div>
+    </nav>
+    <div class="card">
+        <span>Current Portfolio Value</span>
+        <span>₹ 31,627.80</span>
+        <i  class='bx bx-up-arrow-alt'></i>
+        <span style="width: 132px;  height: 54px; top: 254px ; left: 308px; "> Total Money Invested</span>
+        <span>₹ 31,477.50</span>
+        <span style="width: 106px; height: 54px; top: 254px; left: 488px;">Repayment Done</span>
+        <span style="width: 106px; height: 54px; top: 254px; left: 488px;">₹ 0</span>
+    </div>
+    <div class="card2">
+        <span>Current Portfolio Value</span>
+        <span>₹ 31,627.80</span>
+        <i class='bx bx-up-arrow-alt'></i>
+        <span style="width: 132px;  height: 54px; top: 254px ; left: 308px; "> Total Money Invested</span>
+        <span>₹ 31,477.50</span>
+        <span style="width: 106px; height: 54px; top: 254px; left: 488px;">Repayment Done</span>
+        <span style="width: 106px; height: 54px; top: 254px; left: 488px;">₹ 0</span>
+
+    </div>
+    <div class="card3">
+        <span>Current Portfolio Value</span>
+        <span>₹ 31,627.80</span>
+        <i class='bx bx-up-arrow-alt'></i>
+        <span style="width: 132px;  height: 54px; top: 254px ; left: 308px; "> Total Money Invested</span>
+        <span>₹ 31,477.50</span>
+        <span style="width: 106px; height: 54px; top: 254px; left: 488px;">Repayment Done</span>
+        <span style="width: 106px; height: 54px; top: 254px; left: 488px;">₹ 0</span>
+
+    </div>
+    
+        <style>
+            .card-container {
+                display: flex;
+                justify-content: space-between;
+            }
+    
+            .card {
+                width: 200px;
+                padding: 20px;
+                border: 1px solid #ddd;
+                border-radius: 8px;
+                margin: 10px;
+                box-sizing: border-box;
+            }
+        </style>
+        
+        <div class="card-container">
+            <div class="card">
+                <h2>Card 1</h2>
+                <p>This is the content of Card 1.</p>
+            </div>
+            <div class="card">
+                <h2>Card 2</h2>
+                <p>This is the content of Card 2.</p>
+            </div>
+        </div>
+    
+  
+
+    <script type="text/javascript">
+        const toggleSidebar = () => document.body.classList.toggle("open");
+    </script>
+
+</body>
+
+</html>
